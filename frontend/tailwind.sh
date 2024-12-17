@@ -17,4 +17,4 @@ npx tailwindcss init -p
 #
 # Package.json
 #
-# "tailwind": "npx tailwindcss -i ./src/stylesheets/index.css -o ./src/output.css --watch",
+# "tailwind": "npx tailwindcss -i ./src/stylesheets/index.css -o ./src/stylesheets/output.css --watch",
