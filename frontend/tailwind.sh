@@ -1,6 +1,6 @@
 #!/bin/bash
 
-npm install -D tailwindcss @tailwindcss/vite 
+npm install -D tailwindcss @tailwindcss/vite @tailwindcss/cli
 
 sed -i '/"scripts": {/a\  "tailwind": "npx tailwindcss -i ./src/stylesheets/index.css -o ./src/stylesheets/output.css --watch",' package.json
 
